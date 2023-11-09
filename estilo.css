@@ -1,0 +1,119 @@
+body background {
+   background-color: ;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.textocentral{
+    display: flex;
+    flex-flow: row wrap;
+    height: 176px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+
+.logo{
+  flex: 20%;
+  text-align: center;
+}
+
+.logo h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(255, 0, 0);
+   font-size: 30px;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 176px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(91, 62, 255);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu{
+    flex: 1%;
+    text-align: right;
+    padding: 6px;
+}
+
+.menu a{
+    color: rgb(125, 207, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: red;
+    border-top: 4px solid rgb(185, 147, 255);
+}
+
+#botao{
+   color: rgb(101, 119, 255);
+   border-radius: 5px;
+}
+
+#botao:hover{
+   border: none;
+   background: rgb(187, 255, 0);
+   color: red;
+}
+
+section{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+}
+
+section h3{
+    margin: 0;
+    font-size: 20px;
+}
+
+.card{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 1%;
+    border: 1px red;
+}
+
+.preco{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.botaosobre{
+    background: red;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.botaosobre:hover{
+    background: rgb(133, 84, 255);
+}
